@@ -43,6 +43,8 @@ ribbon:
   eureka:
     enabled: true
 ---
+application:
+  name: user
 spring:
   profiles: development
   jpa:
