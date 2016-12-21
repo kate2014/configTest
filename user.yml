@@ -43,9 +43,9 @@ ribbon:
   eureka:
     enabled: true
 ---
-application:
-  name: user
 spring:
+  application:
+    name: user
   profiles: development
   jpa:
     show_sql: false
